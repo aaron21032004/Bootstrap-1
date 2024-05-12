@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>DC TRINITY</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar navbar-dark" style="background-color: #000000;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt="" width="60" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Services</a>
+          </li>
+
+
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://staticg.sportskeeda.com/editor/2023/06/02fe1-16875363042957-1920.jpg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Batman</h5>
+          <p><i>“It's not who I am underneath, but what I do that defines me.”</i> </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://ca-times.brightspotcdn.com/dims4/default/386a899/2147483647/strip/true/crop/1800x945+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fzbk%2Fdamlat_images%2FLA%2FLA_HANDOUTS%2F2017_01%2Fla_ca_SNEAKS_Wonder_Woman_movie_03.JPG"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Wonder Woman</h5>
+          <p><i>"I will fight for those who cannot fight for themselves"</i></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://hips.hearstapps.com/hmg-prod/images/henry-cavill-superman-1574236201.jpg?crop=1.00xw:0.753xh;0,0&resize=1200:*"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Superman</h5>
+          <p class="sup"><i>"There is a superhero in all of us, we just need the courage to put on the cape."</i></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <h2 class="trinity">
+    THE DC TRINITY
+  </h2>
+  <div class="card-group">
+    <div class="card">
+      <img
+        src="https://wallpapers-clan.com/wp-content/uploads/2024/02/batman-logo-grunge-style-desktop-wallpaper-preview.jpg"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Batman</h5>
+        <p class="card-text">
+          <b>Batman</b> is a fictional superhero created by Bob Kane and Bill Finger for DC Comics. His real name is
+          Bruce
+          Wayne, a billionaire playboy who becomes a vigilante after witnessing his parents' murder. Using his wealth,
+          intellect, and martial arts skills, Batman fights crime in Gotham City, aided by gadgets, vehicles like the
+          Batmobile, and allies like Robin and Alfred. His rogues' gallery includes iconic villains such as The Joker,
+          and he's a founding member of the Justice League. Batman's stories explore themes of justice, identity, and
+          trauma, making him one of the most popular superheroes globally.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 30 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://c4.wallpaperflare.com/wallpaper/467/598/514/movie-wonder-woman-black-logo-wallpaper-preview.jpg"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wonder Woman</h5>
+        <p class="card-text"><b>Wonder Woman</b>, created by William Moulton Marston for DC Comics, is a superheroine
+          and
+          Amazon princess named Diana of Themyscira. Endowed with superhuman strength, agility, and combat skills, she
+          fights for justice and peace. Wonder Woman wields the Lasso of Truth and indestructible bracelets, symbolizing
+          her core values. As an ambassador for Themyscira, she champions equality and compassion, embodying courage and
+          determination in her quest for a better world.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 1 day ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://wallpapers.com/images/hd/textured-dark-superman-logo-desktop-d66fd9mx01jc3ozc.jpg"
+        class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Superman</h5>
+        <p class="card-text">
+          <b>Superman</b>, created by Jerry Siegel and Joe Shuster for DC Comics, is a superhero with extraordinary
+          powers. His
+          alter ego is Clark Kent, a mild-mannered reporter. Superman's abilities include superhuman strength, speed,
+          flight, invulnerability, heat vision, and freezing breath, thanks to Earth's yellow sun. He fights for truth,
+          justice, and the American way, defending Metropolis from threats like Lex Luthor and General Zod. Superman's
+          iconic costume features a blue suit, red cape, and the symbol of hope: a stylized "S" on his chest.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 5 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="btns">
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="mar1">
+            <a class="btn btn-primary "
+              href="https://dc.fandom.com/wiki/Special:Search?query=Batman&scope=internal&navigationSearch=true&so=trending"
+              role="button">Know More about BATMAN</a>
+          </div>
+
+
+        </div>
+        <div class="col">
+          <div class="mar2">
+            <a class="btn btn-primary"
+              href="https://dc.fandom.com/wiki/Special:Search?query=wonder+woman&scope=internal&navigationSearch=true&so=trending"
+              role="button">Know More about WONDERWOMAN</a>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="mar3">
+            <a class="btn btn-primary"
+              href="https://dc.fandom.com/wiki/Superman_(Clark_Kent)"
+              role="button">Know More about SUPERMAN</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          <p>Know more about <b> TRINITY</b></p>
+        </button>
+
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>The DC Trinity</strong> comprises Superman, Batman, and Wonder Woman, representing the epitome of
+          heroism in the DC
+          Comics universe. Superman, with his superhuman powers and sense of justice, stands as a symbol of hope.
+          Batman, fueled by determination and advanced technology, embodies the relentless pursuit of justice in Gotham
+          City. Wonder Woman, an Amazonian warrior with strength and compassion, champions equality and peace. Together,
+          they form a formidable alliance, representing different aspects of heroism and contributing to the rich
+          tapestry of DC Comics storytelling. <a href="home.html">Know More</a>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Sign In For The Newsletter
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione distinctio odit, id, error nisi in reiciendis
+          corrupti, fuga accusantium deserunt accusamus! Cumque temporibus pariatur tenetur inventore assumenda
+          asperiores aperiam optio quia iste! Eos, accusamus.
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Courtesy
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Thank you for visiting DC Trinity. We hope you enjoyed exploring our content and discovering
+            more about DC superheroes. Our goal is to provide valuable information and insights for fans of
+            DC. If you have any questions, feedback, or suggestions, please don't hesitate to
+            contact us. Stay tuned for more exciting updates and content from DC Trinity!
+            <br>
+            <strong>DC Trinity&#169</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
